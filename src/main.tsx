@@ -11,6 +11,7 @@ import { PREFIX } from './helpers/API.ts';
 import { AuthLayout } from './layout/Auth/AuthLayout.tsx';
 import { Login } from './pages/Login/Login.tsx';
 import { Register } from './pages/Register/Register.tsx';
+import { RequireAuth } from './helpers/RequireAuth.tsx';
 
 const Menu = lazy(() => import('./pages/Menu/Menu'));
 
